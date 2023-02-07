@@ -25,6 +25,11 @@ body{
 p{
     font-family: var(--fontenormal);
 }
+h2{
+    color: var(--cor03);
+    font-family: var(--fontedestaque);
+    font-size: 0.8em;
+}
 nav{
     background-color: #008BF8;
     
@@ -69,10 +74,24 @@ main{
     padding: 10px;
     
 }
+img{
+    width: 300px;
+}
 .textojornada{
     text-align: center;
     color: var(--cor03);
     font-family: var(--fontedestaque);
     font-size: 1em;
     font-weight: 400;
+}
+.podcast{
+    display: flex;
+    float: left;
+}
+.programacao{
+    display: flex;
+}
+.negocios{
+    display: flex;
+    float: right;
 }
