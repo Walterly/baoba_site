@@ -32,9 +32,7 @@ h2{
 }
 nav{
     background-color: #008BF8;
-    
     text-align: center;
-   
     padding: 10px;
     margin-bottom: 1px ;
 }
@@ -51,9 +49,11 @@ a::shadow{
     color: #517664;
 }
 header{
-    background-color: #008BF8;
-
+   margin: 0px;
+   width: auto;
+   background-color: #008BF8;
 }
+
 header > h1{
     text-align: center;
     font-family: var(--fontelogo);
@@ -96,6 +96,7 @@ section#cursos{
 }
 div#corpo{
     display: flex;
+    width: auto;
     justify-content: center;
     align-items: center;
     padding: 50px;
@@ -118,6 +119,7 @@ div#corpo  h2{
 }
 div.card{
     border-radius: 5px;
+    width: auto;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
     margin: 20px;
